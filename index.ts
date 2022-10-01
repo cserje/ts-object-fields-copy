@@ -30,4 +30,4 @@ ajaxCall()
     //   student[key] = _student[key];
     // }
   })
-  .finally(() => console.log(`✅ student mezők átmásolása kész: ${student}`));
+  .finally(() => console.log("✅ student mezők átmásolása kész:", student));

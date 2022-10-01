@@ -17,3 +17,4 @@ let key: keyof Student;
 for (key in student) {
   student[key] = studentFromServer[key];
 }
+console.log("✅ student mezők átmásolása kész:", student)
